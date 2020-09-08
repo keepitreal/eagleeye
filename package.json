@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "node_modules/webpack-cli/bin/cli.js -c webpack.config.js",
-    "cp-redirects": "mv _redirects dist/_redirects",
+    "cp-redirects": "cp _redirects dist/_redirects",
     "publish": "npm run build && npm run cp-redirects"
   },
   "author": "",
